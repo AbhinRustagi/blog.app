@@ -5,11 +5,11 @@
 <p> <%= homeContent %> </p>
 
 <% postsDict.forEach(function(element) { %>
-<h2><%=element.title%></h2>
+<h2><%=element.name%></h2>
 <%let myBody = element.body;%>
 <%if (myBody.length > 100) {%>
   <p><%=myBody.substring(0, 100)%>...
-  <a href="/posts/<%=element.title%>">Read More</a>
+  <a href="/posts/<%= element._id %>">Read More</a>
   </p>
 <%} else {%>
   <p><%=element.body%></p>
