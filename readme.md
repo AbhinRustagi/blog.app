@@ -1,5 +1,5 @@
 # Standard Blog Website
-This is a simple personal Blog Site where the user can add and store articles.  
+This is a simple personal Blog Site where the user can add and store articles.
 
 ## Requirements
 - Node (version 14.0+)
@@ -42,18 +42,18 @@ This means the application is up and running successfully. Now, to open the appl
 Home Page contains all the stored articles in order.
 
 ## Adding Articles
-To add an articles, go to ```localhost:8888/compose``` and you can post a new article which will be added to the database. 
+To add an articles, go to ```localhost:8888/compose``` and you can post a new article which will be added to the database.
 
 
 ## Screenshots
 **Home Screen**
-![Home Screen](screens/Screen1.png)
+![Home Screen](screens/screen1.png)
 
 **Adding a new post**
-![Adding new item](screens/Screen2.png)
+![Adding new item](screens/screen2.png)
 
 **New Post Added**
-![New Item Added](screens/Screen3.png)
+![New Item Added](screens/screen3.png)
 
 
 ## References
